@@ -1,0 +1,133 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+.menu {
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 0px;
+	font-family: Verdana;
+	min-width: 400px;
+	color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 50px 0px #000;
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 80;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+	/*background-image: url(https://cdn.discordapp.com/attachments/486109372540387348/559384092731506699/foto.png);*/
+	background-image: url(https://i.resimyukle.xyz/3SVQxf.png);
+	background-color: rgba(0,0,0,0.8);
+	/*background-attachment: local;
+	background-origin: border-box; */
+	background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+	background-size: 7%;
+	border-radius: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: large;
+	height: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.menu .menu-items {
+	max-height: 600px;
+	overflow-y: hidden;
+	border-radius: 0px 0px 0px 0px;
+    border-inline-end-width: 80px;
+
+}
+
+.menu .menu-items .menu-item {
+	height: 40px;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.6);
+	-box-shadow: inset 1px 0px 0px 1px rgba(0, 0, 0, 0.6);
+	height: 28px;
+	line-height: 28px;
+	color: rgb(255, 255, 255);
+	/*text-align: center;*/
+	/*text-align: left;*/
+	text-align-last: left;
+	text-decoration: dotted;
+	text-decoration-line: unset;
+	text-transform: inherit;
+	text-indent: inherit;
+	border-left-width: 3px;             /* Menude solda çıkan beyaz işareti kapatmak istiyorsanız 112 ve 117. satırların arasını silin. (112 ve 117 dahil) [SirYavuZ#1981]*/
+	border-left-color: transparent;
+	border-left-style: solid;
+	border-top-left-radius: initial;
+	border-bottom-left-radius: inherit;
+	border-color: transparent;
+}
+
+.menu .menu-items .menu-item.selected {
+    background: -moz-linear-gradient(270deg,#161616, rgba(255, 255, 255, 0.856)); /* FF3.6+ */
+    background: -webkit-linear-gradient(270deg,#161616,rgba(255, 255, 255, 0.856)); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(270deg,#161616,rgba(255, 255, 255, 0.856)); /* Opera11.10+ */
+    background: -ms-linear-gradient(270deg,#161616,rgba(255, 255, 255, 0.856)); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f8b500',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(70deg,#161616,rgba(255, 255, 255, 0.856)); /* W3C */
+    width:400px;
+    height:28px;
+}
+
+/* SirYavuZ#1981*/
+/* SirYavuZ#1981*/
+/* SirYavuZ#1981*/
